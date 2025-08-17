@@ -1,4 +1,4 @@
-import Admin from "../models/Admin.model.js";
+import Admin from "../models/admin.model.js";
 import jwt from "jsonwebtoken";
 import { asyncHandler, ApiError, ApiResponse } from "../utils/index.js";
 
