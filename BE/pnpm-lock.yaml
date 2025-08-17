@@ -29,6 +29,9 @@ importers:
       mongoose:
         specifier: ^8.17.0
         version: 8.17.0
+      portfolio-backend:
+        specifier: 'link:'
+        version: 'link:'
     devDependencies:
       nodemon:
         specifier: ^3.1.10

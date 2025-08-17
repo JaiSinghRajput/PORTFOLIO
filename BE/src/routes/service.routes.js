@@ -1,14 +1,14 @@
 import express from "express";
 import {
   getAllServices,
-  getServiceById,
-} from "../controllers/service.controller.js";
+  getServiceBySlug,
+} from "../controllers/services.controller.js";
 
 const router = express.Router();
 
 // Public routes
 router.get("/", getAllServices);
-router.get("/:id", getServiceById);
+router.get("/:slug", getServiceBySlug);
 
 
 
